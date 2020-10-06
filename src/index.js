@@ -1,3 +1,1 @@
-const add = (a, b) => a + b
-
-export { add }
+import './styles.css';

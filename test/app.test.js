@@ -1,4 +1,4 @@
-import { add } from '../src/index.js'
+import { add } from '../src/app.js'
 
 describe('demo', () => {
   test('demo test', () => {
