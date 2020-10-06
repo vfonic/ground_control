@@ -40,10 +40,12 @@ body {
 }
 
 /*Hide all except first fieldset*/
-#msform fieldset:not(:first-of-type) {
-    display: none;
+#msform fieldset {
+  display: none;
 }
-
+#msform fieldset.is-active {
+  display: block;
+}
 /*inputs*/
 #msform input, #msform textarea {
     padding: 15px;
