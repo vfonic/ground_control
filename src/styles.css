@@ -34,17 +34,18 @@ body {
     box-sizing: border-box;
     width: 80%;
     margin: 0 10%;
-
-    /*stacking fieldsets above each other*/
-    position: relative;
 }
 
 /*Hide all except first fieldset*/
 #msform fieldset {
-  display: none;
+  position: absolute;
+  transition: all 0.3s;
+  opacity: 0;
+  visibility: hidden;
 }
 #msform fieldset.is-active {
-  display: block;
+  opacity: 1;
+  visibility: visible;
 }
 /*inputs*/
 #msform input, #msform textarea {
